@@ -60,13 +60,13 @@ public final class MecanumDrive {
 
         //TODO Step 10 (Only for DriveEncoder Localizer) Set value of trackWidthTicks after running AngularRampLogger
         //TODO Step 11 (Only for DeadWheel Localizer) Set value of trackWidthTicks after running AngularRampLogger
-        public double trackWidthTicks = 0;
+        public double trackWidthTicks = -1383.845972;
 
         // feedforward parameters (in tick units)
         // Step 7 (Only for DeadWheel Localizer) Set value for kS and KV after running ForwardRampLogger
         //TODO Step 9 (Only for DriveEncoder Localizer) Set value for kS and kV after running AngularRampLogger
-        public double kS = 0.004129152195072793; // values for our but, were negative
-        public double kV = 0.9538824410675542; // values for our bot
+        public double kS = 0.95388244; // values for our but, were negative
+        public double kV = 0.004129152195; // values for our bot
 
         //TODO Step 12 Set value of kA after running ManualFeedforwardTuner. In this emperical process update value in increments of 0.0001
         public double kA = 0;
